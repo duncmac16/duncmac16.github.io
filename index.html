@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Duncan, MacDonald, Resume, Projects">
+        <meta name="author" content="Duncan MacDonald">
+        <title>Duncan MacDonald</title>
+
+        <link rel="stylesheet" href="./bulma.min.css">
+        <link rel="stylesheet" href="./style.scss">
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#summary">Summary</a>
+                    <a class="navbar-item" href="#skills">Skills</a>
+                    <a class="navbar-item" href="#work">Work Experience</a>
+                    <a class="navbar-item" href="#projects">Projects</a>
+                    <a class="navbar-item" href="#school">Education</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero is-primary">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  Duncan MacDonald
+                </h1>
+              </div>
+            </div>
+        </section>
+        <!-- Summary -->
+        <a id="summary"></a>
+        <div class="container" style="margin-top: 20px;">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-3">Summary</p>
+                    <p>
+                        I am currently finishing my degree in Software Engineering at the University of Victoria. 
+                        I have worked as a developer at Rimex Supply Ltd. as well as Ergonomyx Inc. In these 
+                        positions, I have had the opportunity to work on many interesting projects and have 
+                        gained many skills with them. While going to school at the University of Victoria, I
+                        had the chance to work with both the Satalite Design Club, as well as the Biomedical 
+                        Design Club. If you would like to know more about anything I have listed here, Please use
+                        the links in the navbar to find what you're looking for, or just scroll down.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Skills -->
+        <a id="skills"></a>
+        <div class="container" style="margin-top: 10px;">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-3">Skills</p>
+                    <div class="tags is-medium">
+                        <span class="tag">C++ / C</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">IoT</span>
+                        <span class="tag">MQTT</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Embedded Applications</span>
+                        <span class="tag">Voice Interfaces</span>
+                        <span class="tag">Graphical User Interfaces</span>
+                        <span class="tag">Soldering</span>
+                        <span class="tag">Hardware Repair</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Work Experience -->
+        <a id="work"></a>
+        <div class="container" style="margin-top: 10px;">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-3">Work Experience</p>
+                    <!-- Start of work-->
+                    <div class="columns">
+                        <div class="column is-three-fifths">
+                            <p>Ergonomyx</p>
+                            <p><b>Software Developer</b></p>
+                        </div>
+                        <div class="column" style="text-align: right;">September, 2020 - May, 2021</div>
+                    </div>
+                    <p>
+                        During my co-op at Ergonomyx, my primary job was to develop voice assistance 
+                        into Ergonomyx's products. The main project that I worked on was developing a
+                        proprietary voice assist for one Ergonomyx's new products. In doing this,
+                        I was very involved in all aspects of the project, everything from creating web 
+                        app to collect the voice samples to implementing a convolutional neural network
+                        in an embedded application. This project involved developing a language model 
+                        using TensorFlow, creating a web application using Node.js, Express.js, PostgreSQL, 
+                        and was deployed on heroku with the database on AWS.
+                    </p>
+                    <p style="margin-top: 10pt;">
+                        Another project I was a part of was integrating Alexa and Google Home Assistant into 
+                        their standing-desk. In this project I created the web-server that handled the business
+                        logic of the commands sent from the Google Home or Alexa. At the time I finished with the
+                        the project, the voice app had most of the functionality that the mobile app did. 
+                        The application also required authentication using an OAuth 2 server which I had a small role
+                        in developing. This project involved deplying the voice application on AWS, using AWS IoT Core, 
+                        Node.js, and Python's Flask. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top: 10px;">
+            <div class="card">
+                <div class="card-content">
+                    <!-- Start of  -->
+                    <div class="columns">
+                        <div class="column is-three-fifths">
+                            <p>Rimex Supply Ltd.</p>
+                            <p>TyreSense Division</p>
+                            <p><b>Software Developer / Electronics Assistant</b></p>
+                        </div>
+                        <div class="column" style="text-align: right;">January, 2019 - May, 2019</div>
+                    </div>
+                    <p>
+                        In my time working for TyreSense, I had two main roles, the first of which was 
+                        repairing some of the RMA items and assembling new products, and the second of which 
+                        was to develop TyreSenses inventory management system. In developing the inventory 
+                        management system, a coworker and I developed a web server using Flask and MySQL for 
+                        the backend, and JQuery and HTML/CSS for the front end.
+                    </p>
+                    <p style="margin-top: 10pt;">
+                       The electronics assistant role I had at TyreSense required me to assemble and upload 
+                       code to the PCBs. This role required soldering and replacing different modules, resistors
+                       and capacitors to the PCBs, as well as using a multimeter to verify the voltages coming 
+                       from different sections of the board.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Projects -->
+        <a id="projects"></a>
+        <div class="container" style="margin-top: 10px;">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-3">Projects</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <a id="school"></a>
+        <div class="container" style="margin-top: 10px;">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-3">Education</p>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
